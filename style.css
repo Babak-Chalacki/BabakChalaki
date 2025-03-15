@@ -197,3 +197,8 @@ j:nth-child(3n+2) {
 }
 
 
+#typed{
+    color: white;
+    position: absolute;
+    margin-top: 440px;
+}

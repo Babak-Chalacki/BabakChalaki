@@ -254,6 +254,6 @@ j:nth-child(3n+2) {
 
 @media (min-width: 1024px) {
   .image-wrapper, #typed {
-    zoom: 150%;
+    zoom: 140%;
   }
 }

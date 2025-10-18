@@ -189,14 +189,17 @@ j:nth-child(3n+2) {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: flex-start;
   cursor: pointer;
   z-index: 9999;
   overflow: hidden;
-  transition: all 0.4s ease;
+  transition: width 0.4s ease, border-radius 0.4s ease, padding-left 0.4s ease;
   white-space: nowrap;
-  padding: 0;
   text-decoration: none;
+}
+
+#coffee-icon {
+    margin-left: 10px;
 }
 
 .donate-box .icon {
@@ -215,24 +218,22 @@ j:nth-child(3n+2) {
   transform: translateX(-10px); 
 }
 
-/* hover */
 .donate-box:hover {
   width: 220px;
   border-radius: 30px;
-  justify-content: flex-start;
-  padding-left: 20px;
 }
 
 .donate-box:hover .donate-text {
   opacity: 1;
   font-size: 18px;
-  margin-left: 50px;
+  margin-left: 60px;
   transform: translateX(0);
 }
 
 .donate-box:hover .icon {
   transform: translateX(0);
 }
+
 
 
 @keyframes pulse {

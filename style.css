@@ -225,8 +225,8 @@ j:nth-child(3n+2) {
 
 .donate-box:hover .donate-text {
   opacity: 1;
-  font-size: 18px;
-  margin-left: 60px;
+  font-size: 17px;
+  margin-left: 55px;
   transform: translateX(0);
 }
 
